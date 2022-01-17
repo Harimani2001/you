@@ -1,7 +1,8 @@
 pipeline {
     agent any
+    environment {
     PATH = /usr/share/man/man1
-
+    }
     stages {
         stage ('Compile Stage') {
 
